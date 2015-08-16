@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SKITECH</string>
+    <string name="student_info">Log In</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="coders">Rajat Goel &#38; Subroto Biswas</string>
+    <string name="action_settings">Settings</string>
+    <string name="branch">Branch</string>
+    <string name="year">Year</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    
+    <style name="DefaultButtonText">
+       <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <string name="app_description1">
+        \"No more rabbling around the notice boards, no more unnecessary wastage of papers!\"</string>
+    
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/profile_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:background="#f2f2f2" >
+
+        <FrameLayout
+            android:id="@+id/profile_image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:measureAllChildren="true" >
+
+            <ImageView
+                android:id="@+id/settings_profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="240dp"
+                android:minWidth="240dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/profile_pic" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:paddingBottom="5dp" >
+                
+                <ImageView
+                    android:id="@+id/pic_default"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/circular_background"
+                    android:src="@drawable/ic_remove" />
+                
+                <View
+                    android:id="@+id/vertical_dash"
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@id/pic_default"
+                    android:background="#fff"
+                    android:layout_margin="5dp" />
+
+                <ImageView
+                    android:id="@+id/edit_profile_pic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@id/vertical_dash"
+                    android:background="@drawable/circular_background"
+                    android:src="@drawable/ic_action_edit" />
+
+            </RelativeLayout>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/custom_list_item"
+            android:padding="13dp"
+            android:id="@+id/profileName"
+            android:text="Subroto Biswas"
+            android:textSize="18sp" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/custom_list_item"
+            android:padding="10dp"
+            android:id="@+id/profileBranch"
+            android:textSize="18sp" />
+        
+
+
+    </LinearLayout>
+
+</ScrollView>

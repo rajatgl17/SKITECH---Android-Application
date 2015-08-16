@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#3B5998" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:shadowColor="#222"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="SKITECH"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="85dp"
+                android:gravity="center"
+                android:text="__Version: 1.1__"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+            
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/app_description1"
+            android:textColor="#555"
+            android:textSize="17sp" />
+        
+        <WebView
+                android:id="@+id/description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#555"
+                android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_margin="10dp"
+            android:background="#3B5998" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Developed By:"
+            android:textColor="#193776"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/coders"
+            android:textColor="#555"
+            android:textSize="19sp"  />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_margin="10dp"
+            android:background="#3B5998" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Graphic Designer:"
+            android:textColor="#193776"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Aman Sharma"
+            android:textColor="#555"
+            android:textSize="19sp"  />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_margin="10dp"
+            android:background="#3B5998" />
+        
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Content Writer:"
+            android:textColor="#193776"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Ankush Sharma"
+            android:textColor="#555"
+            android:textSize="19sp"  />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_margin="10dp"
+            android:background="#3B5998" />
+        
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Media and Marketing:"
+            android:textColor="#193776"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Raghav Soni and Aditya Soni"
+            android:textColor="#555"
+            android:textSize="19sp"  />
+        
+        
+    </LinearLayout>
+
+</ScrollView>
