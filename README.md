@@ -15,12 +15,8 @@ This app was basically developed for creating an online support for uploading an
 - **Android Support Library** — Android standard library to allow support for Backward compatibility of App.
 
 ## Some screenshots 
-![](/1.png?raw=true)
-
-
-![](/2.png?raw=true)
-
-
-![](/3.png?raw=true)
+![](/1.png?raw=true){:height="36px" width="36px"}
+![](/2.png?raw=true){:height="36px" width="36px"}
+![](/3.png?raw=true){:height="36px" width="36px"}
 
 
