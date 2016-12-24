@@ -14,3 +14,9 @@ This app was basically developed for creating an online support for uploading an
 - **JSoup** — An easy to use Java library to parse HTML files.
 - **Android Support Library** — Android standard library to allow support for Backward compatibility of App.
 
+## Some screenshots 
+![](/1.png?raw=true)
+![](/2.png?raw=true)
+![](/3.png?raw=true)
+
+
